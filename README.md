@@ -34,6 +34,7 @@ The project won't open up your browser after being built. To use the API either 
    * **Success Response:**
 
     * **Code:** 200
+    
   ```
   {
   "analyzedWords": [
