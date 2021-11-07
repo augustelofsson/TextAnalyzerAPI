@@ -25,7 +25,7 @@ The project won't open up your browser after being built. To use the API either 
 
   `GET`
   
-  *  **URL Params**
+ *  **URL Params**
 
    **Required:**
  
