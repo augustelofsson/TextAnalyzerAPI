@@ -16,7 +16,7 @@ namespace TextAnalyzer.Controllers
             _textService = textService;
         }
 
-        // GET /Analyze/{text}
+        // GET /Analyze/?text=
         [HttpGet]
         public ActionResult<AnalyzedDto> GetAnalyzedText(string text)
         {
