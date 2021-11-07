@@ -54,5 +54,5 @@ The project won't open up your browser after being built. To use the API either 
 * **Code:** 404 NOT FOUND <br />
 
 * **Sample Call:** <br />
-curl -X GET "https://localhost:5001/api/Analyze?text=test%20testing" -H  "accept: text/plain"
+curl -X GET "https://localhost:5001/api/Analyze?text=test%20testing" -H  "accept: text/plain" <br />
 https://localhost:5001/api/Analyze?text=test%20testing
