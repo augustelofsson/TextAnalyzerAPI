@@ -1,6 +1,6 @@
-# Simple text-analyze API built on .NET
+# Simple text-analyze REST API built on .NET
 
-
+An API that takes a textinput and returns the top 10 words that occurs in the text and how many times the word occurs.
 ## Prerequisites
 
 In order to build this project you'll need .NET 5.0 SDK installed:
@@ -12,7 +12,44 @@ https://dotnet.microsoft.com/download
 npm install
 F5 to build the project
 ```
-NOTE: The project won't open up your browser after being built. To use the API either use the built in Swagger UI by heading to https://localhost:5001/swagger/index.html or use an API platform like Postman
+#### NOTE: 
+The project won't open up your browser after being built. To use the API either use the built in Swagger UI by heading to https://localhost:5001/swagger/index.html or use an API platform like Postman
 
-##Enpoints
+## Endpoints
 
+
+* **URL**
+/api/Analyze/?text=
+
+* **Method:**
+
+  `GET`
+  
+  *  **URL Params**
+
+   **Required:**
+ 
+   `text=[string]`
+   
+   * **Success Response:**
+
+  * **Code:** 200 <br />
+  {
+  "analyzedWords": [
+    {
+      "name": "test",
+      "count": 1
+    },
+    {
+      "name": "testing",
+      "count": 1
+    }
+  ]
+}
+
+* **Error Response:**
+* **Code:** 404 NOT FOUND <br />
+
+* **Sample Call:**
+curl -X GET "https://localhost:5001/api/Analyze?text=test%20testing" -H  "accept: text/plain"
+https://localhost:5001/api/Analyze?text=test%20testing
