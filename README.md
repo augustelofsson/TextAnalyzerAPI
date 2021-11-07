@@ -31,9 +31,9 @@ The project won't open up your browser after being built. To use the API either 
  
    `text=[string]`
    
-   * **Success Response:**
+  * **Success Response:**
 
-    * **Code:** 200
+    * **Code:** 200 <br />
     
   ```
   {
