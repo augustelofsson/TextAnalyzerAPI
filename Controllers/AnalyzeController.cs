@@ -17,7 +17,7 @@ namespace TextAnalyzer.Controllers
         }
 
         // GET /Analyze/{text}
-        [HttpGet("{text}")]
+        [HttpGet]
         public ActionResult<AnalyzedDto> GetAnalyzedText(string text)
         {
             if (text == null)
