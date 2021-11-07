@@ -33,8 +33,9 @@ The project won't open up your browser after being built. To use the API either 
    
    * **Success Response:**
 
-  * **Code:** 200 <br />
+    * **Code:** 200 <br />
   {
+  ```
   "analyzedWords": [
     {
       "name": "test",
@@ -46,6 +47,7 @@ The project won't open up your browser after being built. To use the API either 
     }
   ]
 }
+```
 
 * **Error Response:**
 * **Code:** 404 NOT FOUND <br />
