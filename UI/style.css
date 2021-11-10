@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title {
+    font-size: 23px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+.hero {
+    /* background-color: ; */
+}
+
+#response {
+    padding: 1rem;
+}
+
+.word {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 10px 0;
+}
