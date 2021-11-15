@@ -13,7 +13,7 @@ npm install
 F5 to build the project
 ```
 #### NOTE: 
-Locally:
+Locally: </br>
 The project won't open up your browser after being built. To use the API either use the built in Swagger UI by heading to https://localhost:5001/swagger/index.html or use an API platform like Postman
 
 Or use the hosted URL: http://textanalyzer.northeurope.azurecontainer.io/ 
